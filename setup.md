@@ -5,7 +5,6 @@
 Needless to say - you need to have [Docker](https://www.docker.com/products/overview) installed on your workstation.
 
 ```
-$ docker pull rabbitmq
 $ docker run -p 5672:5672 -p 15672:15672 -d --name rabbitmq rabbitmq
 $ docker exec rabbitmq rabbitmq-plugins enable rabbitmq_management
 ```
