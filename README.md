@@ -9,7 +9,7 @@ Work through the curriculum and thou shall be a RabbitMQ master!
     1. Declare a queue
     1. Publish a message
     1. Consume message
-1. Implementing PubSub with RabbitMQ
+1. [Implementing PubSub with RabbitMQ](pubsub.md):
     1. Declare a `fanout` exchange
     1. Declare a queue `foo`
     1. Declare a queue `bar`
