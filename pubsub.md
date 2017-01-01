@@ -8,7 +8,7 @@ Wait...what? No one told me that exchanges can have types! Well.. they can. In f
 
 ## Goal
 
-Implemet a Pub/Sub using a `fanout` exchange
+Implement a Pub/Sub using a `fanout` exchange
 
 ## Instructions
 
@@ -74,3 +74,5 @@ What happened is that we **published** a message to the `pubsub` exchange and it
 ## Recap
 
 The PubSub design pattern can be implemented in RabbitMQ by binding multiple queues to a `fanout` exchange. Every message published to that exchange will be sent to all queues bound to it.
+
+Next up: [Basic Routing](basicrouting.md)
