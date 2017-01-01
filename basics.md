@@ -31,7 +31,7 @@ If the ready counter is 0, then something went wrong :(.
 
 Consuming messages in different ways. The methods illustrated below are relevant only for debugging purposes. 
 
-### Instrcutions
+### Instructions
 
 Let's start by inspecting the message we sent through the management console:
 
@@ -62,3 +62,5 @@ $ rabbitmqadmin list queues name messages_ready
 That last two parameters are the names of the columns that you want the CLI to print out when listing the queues. In this case we just wanted to see the queue name and number of messages in ready state.
 
 Feel free to play with the `list queues` command for a while. This might come in handy one day!
+
+Next up: [Implementing PubSub with RabbitMQ](pubsub.md)

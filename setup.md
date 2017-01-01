@@ -19,3 +19,5 @@ Password: **guest**
 Open http://localhost:15672/cli/rabbitmqadmin  
 Save the output to `/usr/local/bin/rabbitmqadmin`  
 Check that it works: `rabbitmqadmin list exchanges` 
+
+Next up: [The Basics: Queues and Exchanges](basics.md)
