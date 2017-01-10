@@ -30,7 +30,7 @@ Our new `pubsub` exchange should be listed. We can also see it in the [UI](http:
 
 Right now publishing a message to the exchange will do nothing, because no queues are _bound_ to it. In order to get messages into queues we need to bind them to the relevant exchange. Let's see how it's done.
 
-Declare a two new queues:
+Declare two new queues:
 
 ```
 $ rabbitmqadmin declare queue name=sub_1

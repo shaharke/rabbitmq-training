@@ -15,7 +15,7 @@ Work through the curriculum and thou shall be a RabbitMQ master!
     1. Declare a queue `bar`
     1. Bind `foo` and `bar` to the exchange
     1. Publish a message - this time from the UI!
-1. Basic Routing
+1. [Basic Routing](basicrouting.md)
 1. Advanced Routing
 1. Message sharding with `x-consistent-hash` exchange
 1. Decoupling producers from consumers with exchange to exchange bindings
