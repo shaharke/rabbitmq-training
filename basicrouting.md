@@ -80,4 +80,4 @@ A much more relevant example can be found in the official [tutorial](https://www
 
 This is all you need to know to build a messaging infrastructure where you have a fine-grained control over which message goes to which queue. Using the `direct` exchange is particularly useful when the classification of messages to destinations (e.g. queues) is mostly static, and when the number of routing keys is relatively small. Unfortunately, that's not always the case. In later sections we'll learn about more advanced ways for routing messages.
 
-Next up: [Advanced Routing with Topics](topics.md)
+Next up: [Multi-dimensional Routing with Topics](topics.md)
