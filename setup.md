@@ -2,7 +2,7 @@
 
 ### Spin a Docker image
 
-Needless to say - you need to have [Docker](https://www.docker.com/products/overview) installed on your workstation.
+To make thing easy we're going to use a Docker image that runs the RabbitMQ broker. This way you won't need to install RabbitMQ on your machine. If you're not familiar with Docker you can read more about it [here](https://www.docker.com), although it's really not necessary for this training. However, in order to run the following commands you do need to have [Docker](https://www.docker.com/products/overview) installed on your workstation.
 
 ```
 $ docker pull rabbitmq
