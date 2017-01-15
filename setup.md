@@ -17,7 +17,7 @@ Password: **guest**
 ### Download RabbitMQ Admin CLI
 
 ```
-$ curl http://localhost:15672/cli/rabbitmqadmin > /usr/local/bin/rabbimqadmin
+$ curl http://localhost:15672/cli/rabbitmqadmin > /usr/local/bin/rabbitmqadmin
 $ chmod +x /usr/local/bin/rabbitmqadmin
 
 # Check that it works:
