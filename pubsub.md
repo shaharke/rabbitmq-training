@@ -59,7 +59,7 @@ Go to the [exchanges](http://localhost:15672/#/exchanges) page and select the `p
 Now for that last and most exciting part - let's publish a message to our `pubsub` exchange and see what happenes:
 
 ```
-$ rabbitmqadmin publish exchange=pubsub routing_key="" payload='Im spam!'
+$ rabbitmqadmin publish exchange=pubsub routing_key="" payload='this is spam'
 ```
 
 Navigate back to [Admin UI > Queues](http://localhost:15672/#/queues) tab. Notice that `sub_1` and `sub_2` each have 1 message in _Ready_ state.
