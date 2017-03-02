@@ -1,6 +1,5 @@
 # ![Logo](images/rabbitmqlogo.png) Training Program
 
-
 Work through the curriculum and thou shall be a RabbitMQ master!
 
 ## Curriculum
@@ -10,7 +9,7 @@ Work through the curriculum and thou shall be a RabbitMQ master!
 1. [Implementing PubSub with RabbitMQ](pubsub.md)
 1. [Basic Routing](basicrouting.md)
 1. [Multi-dimensional Routing](topics.md)
-1. Message sharding with `x-consistent-hash` exchange
+1. [Message Sharding](message-sharding.md)
 1. Decoupling producers from consumers with exchange to exchange bindings
 1. Message Persistence
 1. Consumers Behavior
