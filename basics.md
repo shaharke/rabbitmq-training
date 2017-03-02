@@ -4,7 +4,7 @@
 
 Publishing your first message with RabbitMQ and consuming it via the CLI!
 
-### Instructions
+### Tutorial
 
 Create a new queue called `hello`:
 
@@ -29,9 +29,9 @@ If the ready counter is 0, then something went wrong :(.
 
 ### GOAL
 
-Consuming messages in different ways. The methods illustrated below are relevant only for debugging purposes. 
+Consuming messages in different ways. The methods illustrated below are relevant only for debugging purposes.
 
-### Instructions
+### Tutorial
 
 Let's start by inspecting the message we sent through the management console:
 

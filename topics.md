@@ -10,7 +10,7 @@ One way of doing it would be to publish the message multiple times - each time u
 
 Route messages to specific queues by pattern matching on routing keys.
 
-## Instrcutions
+## Tutorial
 
 Declare a new `topic` exchange:
 

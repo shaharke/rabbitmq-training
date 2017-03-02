@@ -1,6 +1,6 @@
 ## Introduction
 
-You might have heard about the Pub/Sub design pattern before, but if you haven't please read [this article](https://abdulapopoola.com/2013/03/12/design-patterns-pub-sub-explained/) first. 
+You might have heard about the Pub/Sub design pattern before, but if you haven't please read [this article](https://abdulapopoola.com/2013/03/12/design-patterns-pub-sub-explained/) first.
 
 Messaging brokers like RabbitMQ are very suited for implementing a Pub/Sub design between different systems. In this section we're going to implement a very simple Pub/Sub on top of RabbitMQ by using the `fanout` exchange type.
 
@@ -10,7 +10,7 @@ Wait...what? No one told me that exchanges can have types! Well.. they can. In f
 
 Implement a Pub/Sub using a `fanout` exchange
 
-## Instructions
+## Tutorial
 
 Declare a new exchange:
 
@@ -67,7 +67,7 @@ Navigate back to [Admin UI > Queues](http://localhost:15672/#/queues) tab. Notic
 ![Ready](/images/pubsub/mgmt-3.png)
 You can now consume those messages (see [basics](basics.md)) and see that they're actually the same message!
 
-What happened is that we **published** a message to the `pubsub` exchange and it was automatically distributed to all queues that are **subscribed** (or bound) to it. 
+What happened is that we **published** a message to the `pubsub` exchange and it was automatically distributed to all queues that are **subscribed** (or bound) to it.
 
 ***Note***: You might have noticed that the `routing_key` passed to the publish command above is empty. This makes sense since we really just want the message to reach all subscribers when implementing a PubSub. So why did we have to pass it in the first place? Because the [AMQP protocol](https://www.rabbitmq.com/resources/specs/amqp0-9-1.pdf) - which is the communication protocol used by RabbitMQ - says we have too. In effect the `fanout` exchange will just ignore it.
 

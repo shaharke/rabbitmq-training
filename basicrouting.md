@@ -6,7 +6,7 @@ PubSubs are pretty useful when you want to blindly distribute messages sent to t
 
 Route messages to specific queues using a routing key
 
-## Instrcutions
+## Tutorial
 
 Declare a new `direct` exchange:
 
