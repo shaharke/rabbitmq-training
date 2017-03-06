@@ -10,7 +10,7 @@ Work through the curriculum and thou shall be a RabbitMQ master!
 1. [Basic Routing](basicrouting.md)
 1. [Multi-dimensional Routing](topics.md)
 1. [Message Sharding](message-sharding.md)
-1. Decoupling producers from consumers with exchange to exchange bindings
+1. [Exchange to Exchange (e2e) Bindings](e2e.md)
 1. Message Persistence
 1. Consumers Behavior
 1. Administration
