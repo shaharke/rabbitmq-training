@@ -50,7 +50,7 @@ Notice that the **Requeue** option is set to **Yes**. That means that the messag
 Now let's use the Admin CLI to read the message:
 
 ```
-$ rabbitmqadmin get queue=hello requeue=false
+$ rabbitmqadmin get queue=hello ackmode=ack_requeue_false
 ```
 
 This time we opted not to requeue the message. Going back to the mgmt. console you should see that the `hello` queue is empty. You can also use the CLI:
